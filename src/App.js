@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>THIS IS MAI ZHU ZHU & LU ZHU ZHU</p>
-        <p>UPDATE VERSION</p>
+        <p>UPDATE VERSION NIBABA</p>
         <a
           className="App-link"
           href="https://reactjs.org"
