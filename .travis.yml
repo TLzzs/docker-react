@@ -8,6 +8,13 @@ before_install:
 script:
   - docker run -e CI=true tlzzs/docker-react npm run test -- --coverage
 
+# PROD using nginx
+# before_install:
+#   - docker build -f Dockerfile -t tlzzs/docker-react .
+
+# script:
+#   - docker run tlzzs/docker-react
+
 deploy:
   provider: elasticbeanstalk
   region: "ap-southeast-2"
